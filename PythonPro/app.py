@@ -60,19 +60,23 @@ def secret():
     return 'You have logged in successfully!'
 
 def add_user(username, password):
-    with open('users.pkl', 'ab') as f:
-        pickle.dump({username: password}, f)
+    with open('users.txt', 'a') as f:
+        #pickle.dump({username: password}, f)
+        # we'll do CSV
+        f.write(username + " " + password)
+        #f.write(password)
 
 def check_user(username, password):
-    with open('users.pkl', 'rb') as f:
-        while True:
-            try:
-                user = pickle.load(f)
-                if username in user and user[username] == password:
-                    return True
-            except EOFError:
-                break
+    with open('users.txt', 'r') as f:
+        # each line has one user
+        for line in f:
+            user, pw = line.split()
+            print(user, pw, " comparing with: ", username, password)
+            if username == user and password == pw:
+                return True
+    # if we get here, we've read the whole file
     return False
+
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
