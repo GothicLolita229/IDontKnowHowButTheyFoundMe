@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SPlNKiYrnppCUcBo78Fkc9Kk9GK5GXlozVdNRhwBk5I9oUtGhHres8sPozIv4f9zuOpn9gPU1UfKV2snMezpSQ==",
+  "dgSpecHash": "5NOUUHnK442Ey9Ceq+gbIAaSNxJqtsVh4xcvNqKtU3tO3E995kudSaNwFmRDLU516UnicRmlXf66VxW94tfEOA==",
   "success": true,
-  "projectFilePath": "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\CapstoneProject\\WebAppUI\\WebAppUI.csproj",
+  "projectFilePath": "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\WebAppUI\\WebAppUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lourd\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lourd\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\CapstoneProject\\WebAppUI\\WebAppUI.csproj": {}
+    "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\WebAppUI\\WebAppUI.csproj": {}
   },
   "projects": {
-    "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\CapstoneProject\\WebAppUI\\WebAppUI.csproj": {
+    "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\WebAppUI\\WebAppUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\CapstoneProject\\WebAppUI\\WebAppUI.csproj",
+        "projectUniqueName": "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\WebAppUI\\WebAppUI.csproj",
         "projectName": "WebAppUI",
-        "projectPath": "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\CapstoneProject\\WebAppUI\\WebAppUI.csproj",
+        "projectPath": "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\WebAppUI\\WebAppUI.csproj",
         "packagesPath": "C:\\Users\\lourd\\.nuget\\packages\\",
-        "outputPath": "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\CapstoneProject\\WebAppUI\\obj\\",
+        "outputPath": "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\WebAppUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
