@@ -4,6 +4,21 @@
     "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\WebAppUI\\WebAppUI.csproj": {}
   },
   "projects": {
+    "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\TastyTableLibrary\\TastyTableLibrary.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\TastyTableLibrary\\TastyTableLibrary.csproj",
+        "projectName": "TastyTableLibrary",
+        "projectPath": "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\TastyTableLibrary\\TastyTableLibrary.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\WebAppUI\\WebAppUI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -31,7 +46,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\TastyTableLibrary\\TastyTableLibrary.csproj": {
+                "projectPath": "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\TastyTableLibrary\\TastyTableLibrary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -58,17 +77,17 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.14, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.14, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.12, )"
+              "version": "[6.0.13, )"
             }
           },
           "imports": [

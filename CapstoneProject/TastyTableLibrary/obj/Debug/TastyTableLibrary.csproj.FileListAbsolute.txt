@@ -1,0 +1,6 @@
+D:\ASchool_Fall_2022-Spring2023\Spring_2023\CSC-289 Capstone\IDontKnowHowButTheyFoundMe\CapstoneProject\TastyTableLibrary\bin\Debug\TastyTableLibrary.dll
+D:\ASchool_Fall_2022-Spring2023\Spring_2023\CSC-289 Capstone\IDontKnowHowButTheyFoundMe\CapstoneProject\TastyTableLibrary\bin\Debug\TastyTableLibrary.pdb
+D:\ASchool_Fall_2022-Spring2023\Spring_2023\CSC-289 Capstone\IDontKnowHowButTheyFoundMe\CapstoneProject\TastyTableLibrary\obj\Debug\TastyTableLibrary.csproj.AssemblyReference.cache
+D:\ASchool_Fall_2022-Spring2023\Spring_2023\CSC-289 Capstone\IDontKnowHowButTheyFoundMe\CapstoneProject\TastyTableLibrary\obj\Debug\TastyTableLibrary.csproj.CoreCompileInputs.cache
+D:\ASchool_Fall_2022-Spring2023\Spring_2023\CSC-289 Capstone\IDontKnowHowButTheyFoundMe\CapstoneProject\TastyTableLibrary\obj\Debug\TastyTableLibrary.dll
+D:\ASchool_Fall_2022-Spring2023\Spring_2023\CSC-289 Capstone\IDontKnowHowButTheyFoundMe\CapstoneProject\TastyTableLibrary\obj\Debug\TastyTableLibrary.pdb

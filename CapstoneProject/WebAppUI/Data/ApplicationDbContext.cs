@@ -11,5 +11,6 @@ namespace WebAppUI.Data
 		{
 		}
 		public DbSet<WebAppUI.Models.UserCreds> UserCreds { get; set; }
+		public DbSet<WebAppUI.Models.Recipe>? Recipe { get; set; }
 	}
 }
