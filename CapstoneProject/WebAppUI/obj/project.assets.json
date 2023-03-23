@@ -10474,23 +10474,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lourd\\.nuget\\packages\\": {},
+    "C:\\Users\\snowt\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\WebAppUI\\WebAppUI.csproj",
+      "projectUniqueName": "C:\\Users\\snowt\\OneDrive\\Desktop\\coding\\C#\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\WebAppUI\\WebAppUI.csproj",
       "projectName": "WebAppUI",
-      "projectPath": "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\WebAppUI\\WebAppUI.csproj",
-      "packagesPath": "C:\\Users\\lourd\\.nuget\\packages\\",
-      "outputPath": "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\WebAppUI\\obj\\",
+      "projectPath": "C:\\Users\\snowt\\OneDrive\\Desktop\\coding\\C#\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\WebAppUI\\WebAppUI.csproj",
+      "packagesPath": "C:\\Users\\snowt\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\snowt\\OneDrive\\Desktop\\coding\\C#\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\WebAppUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lourd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\snowt\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -10499,14 +10499,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\TastyTableLibrary\\TastyTableLibrary.csproj": {
-              "projectPath": "D:\\ASchool_Fall_2022-Spring2023\\Spring_2023\\CSC-289 Capstone\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\TastyTableLibrary\\TastyTableLibrary.csproj"
+            "C:\\Users\\snowt\\OneDrive\\Desktop\\coding\\C#\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\TastyTableLibrary\\TastyTableLibrary.csproj": {
+              "projectPath": "C:\\Users\\snowt\\OneDrive\\Desktop\\coding\\C#\\IDontKnowHowButTheyFoundMe\\CapstoneProject\\TastyTableLibrary\\TastyTableLibrary.csproj"
             }
           }
         }
@@ -10567,7 +10568,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
