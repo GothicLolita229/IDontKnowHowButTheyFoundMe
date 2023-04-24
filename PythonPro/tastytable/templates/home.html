@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Team | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="{{ url_for('static' , filename = "css/bootstrap.min.css") }}"> 
+  <style>
+    .team-member {
+      padding: 20px;
+    }
+    .team-member img {
+      border-radius: 50%;
+      height: 200px;
+      margin-bottom: 20px;
+      width: 200px;
+    }
+    .team-member h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .team-member h3 {
+      color: #666666;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .team-member p {
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <!--<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Our Team</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+<!-- todo: move this -->
+			<li class="nav-item">
+            <a class="nav-link" href="/auth/login">Login</a>
+          </li>
+			<li class="nav-item">
+            <a class="nav-link" href="/auth/register">Resgister</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="team-member">
+		<!-- won't work unless page is running!
+		url_for() returns the correct path for when it's running
+		i moved images folder into static to avoid using a ..
+		TODO: not working but try something else with static
+		-->
+          <img src={{ url_for('static', filename="images/Lourdes.jpg") }} alt="Lourdes">
+          <h2>Lourdes </h2>
+          <h3>Scrum Master</h3>
+          <p>I am Lourdes Linares, Scrum Master and Senior Developer at Tasty Tables. With over a decemvirate of experience in project management and agile methodologies, I prioritize continuous improvement and effective team collaboration. I thrive in anxiety-ridden situations and have a passion for creative problem-solving. In my off time, I enjoy moderate gaming and a healthy amount of Netflix viewing.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="team-member">
+          <img src={{ url_for('static', filename="images/ciera.jpg")}}  alt="Ciera">
+          <h2>Ciera</h2>
+          <h3>Chief Technology Officer</h3>
+          <p>My name is Ciara, and I serve as the Chief Technology Officer at Tasty Table. I possess a passion for creative endeavors, particularly illustration. This affinity for artistic pursuits extends into the realm of coding, where I am able to combine my creativity with technical expertise to craft innovative solutions.</p>
+        </div>
+      </div>
+	  <div class="col-md-4">
+        <div class="team-member">
+          <img src={{ url_for('static', filename="images/marsia.jpg")}}  alt="marsia">
+          <h2>Marceia Patterson</h2>
+          <h3>Marketing</h3>
+          <p>I'm the Web Designer and Marketing Representative for Tasty Tables. I have a passion for creative design and illustration and love drawing unique characters in interesting scenarios. I primarily use the Adobe Creative Suite to make my graphics. I'm also experienced with front-end web development and use HTML, CSS, and Javascripts for my web projects.</p>
+        </div>
+		</div> <!-- end row -->
+		<div class="row">
+		 <div class="col-md-4">
+        <div class="team-member">
+          <img src={{ url_for('static', filename="images/KalieBabyPic.jpg")}}  alt="KalieBaBy">
+          <h2>Kalie Kirch</h2>
+          <h3>Build/Database Manager</h3>
+          <p> second time student and Database Manager for Tasty Table. I work with C# and make video games on the side..</p>
+        </div>
+		</div>
+		<div class="col-md-4">
+        <div class="team-member">
+         <img src={{ url_for('static', filename="images/viana.jpg")}}  alt="Viana">
+          <h2>Viana Butler</h2>
+          <h3>Non-Human resources officer</h3>
+          <p>As the Non-Human Resources Officer at Tasty Table, my role involves managing the organization's non-human resources and ensuring their seamless integration into the workplace to maximize efficiency, productivity, and overall success </p>
+        </div>
+	</div>	
+		
+	</div> <!-- end of row -->

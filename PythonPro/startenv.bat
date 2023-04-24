@@ -1,0 +1,1 @@
+.\flaskenv\Scripts\activate.bat

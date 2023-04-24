@@ -1,0 +1,1 @@
+flask --app tastytable run --debug 

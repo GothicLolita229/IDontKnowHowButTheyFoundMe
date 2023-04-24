@@ -42,10 +42,19 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return redirect(url_for('login'))
+    return redirect(url_for('home'))
+
+@app.route('/home')
+def home():
+    # our wireframe flow is: home (not logged in) -> login -> home (logged in)
+    # see flask.palletsprojects.com -> tutorial -> "require authentication" (i think)
+    # for now, just view home page
+    return render_template('home.html')
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
+    # note: with the change to home being the first page visited,
+    # the login form needs to direct to home, or maybe home_loggedin, idk
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
@@ -60,23 +69,19 @@ def secret():
     return 'You have logged in successfully!'
 
 def add_user(username, password):
-    with open('users.txt', 'a') as f:
-        #pickle.dump({username: password}, f)
-        # we'll do CSV
-        f.write(username + " " + password)
-        #f.write(password)
+    with open('users.pkl', 'ab') as f:
+        pickle.dump({username: password}, f)
 
 def check_user(username, password):
-    with open('users.txt', 'r') as f:
-        # each line has one user
-        for line in f:
-            user, pw = line.split()
-            print(user, pw, " comparing with: ", username, password)
-            if username == user and password == pw:
-                return True
-    # if we get here, we've read the whole file
+    with open('users.pkl', 'rb') as f:
+        while True:
+            try:
+                user = pickle.load(f)
+                if username in user and user[username] == password:
+                    return True
+            except EOFError:
+                break
     return False
-
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
